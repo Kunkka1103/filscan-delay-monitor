@@ -11,14 +11,14 @@ This is a simple monitoring tool for Filscan.
 
 ```text
 Usage of ./filscan-delay-monitor:
-  -calibration-url string
-        Calibration url (default "https://calibration.filscan.io")
-  -interval int
-        Interval in minutes (default 5)
   -mainnet-url string
-        Mainnet url (default "https://filscan.io")
+        URL for main-net
+  -calibration-url string
+        URL for calibration
+  -interval int
+        Interval in minutes to check the URLs (default 1)
   -push-address string
-        Pushgateway address (default "http://localhost:9091")
+        Address of the Pushgateway to send metrics
 ```
 
 ## supervisor config
