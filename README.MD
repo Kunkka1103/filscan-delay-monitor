@@ -21,7 +21,7 @@ Usage of ./filscan-delay-monitor:
         Pushgateway address (default "http://localhost:9091")
 ```
 
-##supervisor config
+## supervisor config
 ```text
 [program:filscan-delay-monitor]
 command=/opt/filscan-delay-monitor/filscan-delay-monitor  -push-address=<pushgateway_address> -mainnet-url=<mainnet_url> -calibration-url=<calibration_url> -interval=<interval_in_minutes>
