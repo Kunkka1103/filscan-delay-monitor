@@ -15,6 +15,6 @@ build:
 
 clean:
 	@echo "  >  Cleaning build cache"
-	.go clean -mod=mod
+	go clean -mod=mod
 
 .PHONY: all build clean
